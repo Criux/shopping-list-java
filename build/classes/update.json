@@ -1,0 +1,10 @@
+{
+	"address":"105 JFK Parkway",
+	"city":"Short Hills",
+	"state":"New Jersey",
+	"first-name":"Jonathan",
+	"last-name":"Saxton",
+	"zip-code":"07078",
+	"is-active":1,
+  "customer-id": 3
+}

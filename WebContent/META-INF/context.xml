@@ -1,0 +1,23 @@
+<Context>
+
+  <Resource name="jdbc/tutorialdb" 
+  			auth="Container" type="javax.sql.DataSource"
+        maxActive="25" maxIdle="10" maxWait="10000"
+        maxTotal="50" removeAbandonedTimeout="300" 
+        defaultAutoCommit="true"
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+        username="root" password="root" 
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/tutorialdb"/>
+        
+   <Resource name="jdbc/shoppingList_prod" 
+  			auth="Container" type="javax.sql.DataSource"
+        maxActive="25" maxIdle="10" maxWait="10000"
+        maxTotal="50" removeAbandonedTimeout="300" 
+        defaultAutoCommit="true"
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+        username="sladmin" password="sa" 
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/poc_shoppinglist"/>
+
+</Context>
